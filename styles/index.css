@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  width: auto;
+  height: 30px;
+}
+
+.container {
+  max-width: 900px !important;
+}
+
+.footer {
+  text-align: center;
+}
