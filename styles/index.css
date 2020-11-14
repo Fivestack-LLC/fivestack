@@ -2,15 +2,44 @@
   box-sizing: border-box;
 }
 
+body {
+  font: #1a1a1a;
+}
+
 .logo {
   width: auto;
-  height: 30px;
+  height: 46px;
 }
 
 .container {
-  max-width: 900px !important;
+  max-width: 1000px !important;
 }
 
 .footer {
   text-align: center;
+}
+
+.bg-green {
+  background-color: #9ad3bc !important;
+  border-color: #9ad3bc !important;
+}
+
+.bg-red {
+  background-color: #ec524b !important;
+  border-color: #ec524b !important;
+}
+
+.kickstarter {
+  width: 90%;
+  height: auto;
+}
+
+.steam {
+  width: 60%;
+  height: auto;
+}
+
+.stores {
+  height: 43px;
+  width: 137px;
 }

@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Fivestack</title>
-    <link rel="icon" href="assets/images/favicon.ico" />
+    <link rel="icon" href="assets/images/icon.png" />
     <link rel="stylesheet" href="styles/index.css" />
     <link
       rel="stylesheet"
@@ -36,8 +36,8 @@
   </head>
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="#">
-        <img class="logo" src="assets/images/logo.png" />
+      <a class="navbar-brand" href="/index.html">
+        <img class="logo" src="assets/images/logo.svg" />
       </a>
       <button
         class="navbar-toggler border-0"
@@ -50,19 +50,43 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse ml-4" id="navbarNav">
+      <div
+        class="collapse navbar-collapse"
+        id="navbarNav"
+        style="flex-direction: row-reverse"
+      >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="/projects.html">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">People</a>
+            <a class="nav-link" href="/people.html">People</a>
           </li>
         </ul>
       </div>
     </nav>
+    <div class="jumbotron bg-white">
+      <h1 class="display-2">Hello, world!</h1>
+      <p class="lead my-4">Fivestack is a couple of dudes who code.</p>
+      <hr class="my-4" />
+      <p class="my-4">We play games and like to make them.</p>
+      <p class="lead my-4">
+        <a
+          class="btn btn-primary btn-lg bg-red"
+          href="/projects.html"
+          role="button"
+          >Our Projects</a
+        >
+        <a
+          class="btn btn-primary btn-lg bg-green ml-3"
+          href="/people.html"
+          role="button"
+          >Who We Are</a
+        >
+      </p>
+    </div>
     <footer class="footer">
-      <p><small>Copyright 2020 by Fivestack LLC</small></p>
+      <p class="text-light"><small>Copyright 2020 by Fivestack LLC</small></p>
     </footer>
   </div>
 </html>
