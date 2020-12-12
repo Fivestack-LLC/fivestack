@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.hero {
+  width: 248px;
+  height: 248px;
+}
+
 body {
   font: #1a1a1a;
 }
@@ -42,4 +47,12 @@ body {
 .stores {
   height: 43px;
   width: 137px;
+}
+
+.center {
+  text-align: center;
+}
+
+.fw-lighter {
+  font-weight: 200;
 }
